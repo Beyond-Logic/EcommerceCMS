@@ -74,7 +74,7 @@ const Cart = () => {
                   placeholder="Name"
                   onChange={(e) => setName(e.target.value)}
                   className=""
-                  value={name}
+                  value={name ? name : ""}
                 />
                 <input
                   type="email"
@@ -82,7 +82,7 @@ const Cart = () => {
                   placeholder="Email"
                   onChange={(e) => setEmail(e.target.value)}
                   className=""
-                  value={email}
+                  value={email ? email : ""}
                 />
               </div>
             </>
